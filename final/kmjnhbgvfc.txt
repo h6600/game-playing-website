@@ -1,0 +1,26 @@
+                     OUR GROUP MEMBERS
+
+	    NAME[batch]              ROLL NO                 
+	 HARSHAL DHAKE[b1]               8
+	 SWETA DUNDALE[b1]              11
+ 	 DHANESH SURESH[b1]             10  
+
+ topic:WEBAPPLICATION[FREE GAME PLAYING WEBSITE]
+
+1].first let's start with login of data base {remotemysql.com}  
+2].let's go through python main file[done]
+3].let's go through html home page[done]
+4].let's check our user form  
+	a].regristration sucessfull
+	b].check in database
+	c].login with same id [done]
+5].check whether appliction is working [done]
+6].check whether application is logging off sucessfully [done]
+7].thanking
+
+                          Regards
+  	    NAME[batch]              ROLL NO                 
+	 HARSHAL DHAKE[b1]               8
+	 SWETA DUNDALE[b1]              11
+ 	 DHANESH SURESH[b1]             10  
+   

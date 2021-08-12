@@ -1,0 +1,27 @@
+.bg-nav{
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.mt-100{
+        margin-top:100px;
+}
+.bg-top{
+        background: #000046;
+        background: -webkit-linear-gradient(to right, #000046, #1cb5e0);
+        background: linear-gradient(to right, #000046, #1cb5e0);
+
+}
+
+.rcorners2{
+        border-radius: 25px;
+        border: 2px solid #000000;
+        padding:10px;
+
+}
+
+}
+
+

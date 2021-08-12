@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}"></link>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Regristration page</title>
+  </head>
+  <body class=" bg-nav">
+  <nav class="navbar bg-navcr">
+      <a href="" class="navbar-brand text-light">Online gaming</a>
+  </nav>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="text-light display-4 mt-100"style="font-size:80px">The best small games are out here <h2 class="text-light">Register and start playing for free</h2></h1>
+        </div>
+         <div class="col-md-4">
+            <div class="card mt-100 bg-top">
+                <div class="card-body">
+                    <form class="form" method="post" action="/add_user">
+
+                        <label class="text-light">Email</label><br>
+                        <input type="email" class="form-control" name="uemail"><br>
+                        <label class="text-light">Password</label><br>
+                        <input type="password" class="form-control " name="upassword"><br>
+                        <label class="text-light">Name</label><br>
+                        <input type="text" class="form-control" name="uname"><br>
+                        <label class="text-light">Age</label><br>
+                        <input type="number" class="form-control" name="uage"><br><br>
+                        <input type="submit" class="btn btn-primary btn-lg" value="Sign up">
+                    </form>
+                    <p class="text-light">Already a member? <br><a href="/">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
